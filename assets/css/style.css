@@ -1,0 +1,381 @@
+body {
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(8, 8, 8, 0.5);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  padding: 2% 2%;
+  align-items: center;
+  background-color: transparent;
+   position: relative;
+}
+
+.navbar img {
+    width: 120px;
+    height: 40px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttons {
+  background-color: #e50914;
+  padding: 7px 17px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 3px;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  margin-top: -100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url(/assets/images/background_image.png);
+  background-size: cover;
+  align-items: center;
+  overflow-x: hidden;
+  justify-content: center;
+  display: flex;
+  background-position: center;
+ 
+}
+
+.area {
+  color: white;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.area h1 {
+  font-size: 50px;
+  
+  line-height: 65px;
+}
+
+.area h3 {
+  margin-top: -30px;
+  font-size: 25px;
+  font-weight: normal;
+}
+.area p {
+  margin-top: 10px;
+  font-weight: normal;
+}
+.search {
+  display: inline-block;
+  
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  
+}
+input[type="text"]{
+    background: #fff;
+    width:350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+}
+input[type="submit"]{
+    
+    width: 150px;
+    height: 50px;
+    margin-left: -20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #e50914;
+    color: #fff;
+    
+}
+
+
+
+.container1 {
+  width: 100%;
+  min-height: 460px;
+  background-color: black;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.container1 img {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  object-fit: contain;
+  object-position: center;
+  align-self: center;
+
+  max-width: 100%;
+  height: 350px;
+}
+
+.container2 .image {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  object-fit: contain;
+}
+
+.text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: center;
+  align-content: center;
+}
+.text1 {
+  color: white;
+  text-align: left;
+}
+.text p {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.text h1 {
+  font-size: 3.125rem;
+}
+
+.question {
+  width: 100%;
+  min-height: 950px;
+  background-color: #000;
+  margin-top: 5px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.question h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quest {
+  width: 51%;
+  min-height: 75px;
+  background-color: #303030;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  margin: 5px 0;
+}
+
+.quest .textbox {
+  display: flex;
+  text-align: left;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-self: center;
+  font-size: 25px;
+  margin: 0 30px;
+  word-spacing: 5px;
+  text-align: left;
+}
+
+.quest i {
+  margin: 0 30px;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.quest:focus {
+  background-color: red;
+}
+
+.search1 {
+  width: 50%;
+  background-color: none;
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.box1 {
+  width: 100%;
+  min-height: 65px;
+}
+
+.try1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #e50914;
+  min-height: 70px;
+  width: 70%;
+  color: white;
+  font-size: 30px;
+  margin: 50px 0;
+  text-transform: uppercase;
+}
+
+.question p {
+  color: white;
+  margin-top: 20px;
+}
+.search {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+/*---------styling for the footer section---------*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 375px;
+  background-color: black;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content:space-around;
+
+}
+
+.footercon {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 50px;
+  background-color: transparent;
+}
+
+.footer .contact {
+  color:#999;;
+  justify-content: left;
+  margin-left: 260px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  width:100%;
+  font-size: 17px;
+  min-height: 30px;
+
+}
+
+.footer .flex1 h5 {
+  align-self:flex-start;
+}
+
+.list {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-items: flex-start;
+  align-self: center;
+  justify-content: center;
+  min-height:50px;
+  font-size: 13px;
+  padding: 0px 70px;
+  text-align: left;
+}
+
+.list li {
+  font-size: 13px;
+  margin: 7px -10px;
+  list-style-type: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-items: center;
+  align-self: flex-start;
+  justify-content: center;
+}
+
+.list li a {
+  color: #999;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+li a {
+  font-size: 13px;
+  text-align: center;
+  color: #999;
+}
+
+
+.footertxt {
+  color:white;
+  display:flex;
+  flex-direction:row;
+  align-items:flex-end;
+  justify-content: flex-end;
+}
+
+.end {
+    width:100%;
+    margin-left: 260px;
+    background-color: black;
+    justify-content:start;
+    align-items:flex-start;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    color:#999;
+    margin-top:-60px;
+}
+
+.end p {
+  display:flex;
+  flex-direction: row;
+font-size:16px;
+}
+

@@ -1,0 +1,165 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo img{
+    height: 40px;
+    width: 120px;
+    z-index: 1;
+}
+.header{
+    padding: 2% 2%;
+    position: relative;
+   
+
+}
+.wrapper{
+    background-image: url(/assets/images/background_image.png);
+    height: 150vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+.wrapper::before{
+    content: "";
+    background: rgba(73, 71, 71, 0.1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.login {
+    padding: 60px;
+    position: relative;
+    max-width: 450px;
+    height: 100vh;
+    margin-left: 50%;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    box-sizing: border-box;
+    transform: translate(-50%);
+}
+.login h2{
+    font-size: 32px;
+    color: #fff;
+    margin-top: 0;
+}
+.login input {
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    color: #fff;
+    background: #333;
+    border: 1px solid #333;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+.input-wrap {
+    margin-bottom: 25px;
+}
+.login button {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background: #e50914;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #e50914;
+    cursor: pointer;
+}
+.support {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.support input {
+    width: 15px;
+    height: 15px;
+}
+.remember {
+    display: flex;
+    align-items: center;
+}
+.remember span {
+    margin-right: 10px;
+    height: 25px;
+}
+.need-help a {
+    text-decoration: none;
+    color: #fff;
+}
+.facebook {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+}
+.facebook img {
+    width: 20px;
+    height: 20px;
+}
+.facebook span {
+    margin-right: 10px;
+    font-size: 13px;
+}
+.facebook span a {
+    text-decoration: none;
+    color: #737373;
+}
+.sign-up {
+    color: #737373;
+    font-size: 16px;
+}
+.sign-up a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+.terms {
+    color: #737373;
+    font-size: 13px;
+}
+.terms a {
+    text-decoration: none;
+    color: #0071eb;
+}
+
+
+/*-------styling for the footer--------*/
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
+.footer-lists {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px 30px 50px;
+    margin-right: 50px;
+}
+.footer-top p {
+    padding-left: 90px;
+}
+.footer-top a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.footer-list li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+.footer-list li a {
+    text-decoration: none;
+    color: #737373;
+    font-size: 12px;
+}
